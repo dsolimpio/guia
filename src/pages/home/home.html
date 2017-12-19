@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h2>Welcome to Ionic!</h2>
+  <img src="/assets/images/logoapp.png"/>
+  <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+  <button ion-button full (click)="goToAcademiasPage()">Academias</button>
+  <button ion-button full (click)="goToAcouguesPage()">Açougues e Frigoríficos</button>
+  <button ion-button full (click)="goToCreditoPage()">Agências de Crédito</button>
+  <button ion-button full (click)="goToAgropecuariaPage()">Agropecuária</button>
+  <button ion-button full (click)="goToAntenasPage()">Antenas</button>
+  <button ion-button full (click)="goToBrindesPage()">Brindes e Calendários</button>
+  <button ion-button full (click)="goToBancosPage()">Bancos</button>
+  <button ion-button full (click)="goToBancosPage()">Beleza e Estética</button>
+  <button ion-button full (click)="goToBancosPage()">Casa e Construção</button>
+  <button ion-button full (click)="goToBancosPage()">Celulares</button>
+  <button ion-button full (click)="goToBancosPage()">Contabilidade</button>
+  <button ion-button full (click)="goToBancosPage()">Decorações e Festas</button>
+  <button ion-button full (click)="goToBancosPage()">Despachantes</button>
+  <button ion-button full (click)="goToBancosPage()">Distribuidoras</button>
+  <button ion-button full (click)="goToBancosPage()">Doces e Salgados</button>
+
+  <p>
+    Take a look at the <code>src/pages/</code> directory to add or change tabs,
+    update any existing page or create new pages.
+  </p>
+</ion-content>
