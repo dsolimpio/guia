@@ -16,6 +16,21 @@ import { AcouguesPage } from '../pages/acougues/acougues';
 import { AgropecuariaPage } from '../pages/agropecuaria/agropecuaria';
 import { AntenasPage } from '../pages/antenas/antenas';
 import { BelezaPage } from '../pages/beleza/beleza';
+import { DrogariasPage } from '../pages/drogarias/drogarias';
+import { CreditoPage } from '../pages/credito/credito';
+import { SupermercadosPage } from '../pages/supermercados/supermercados';
+import { VidraçariasPage } from '../pages/vidra\u00E7arias/vidra\u00E7arias';
+import { ViagensETurismoPage } from '../pages/viagens-e-turismo/viagens-e-turismo';
+import { VeterinariosPage } from '../pages/veterinarios/veterinarios';
+import { TaxistasPage } from '../pages/taxistas/taxistas';
+import { SorveteriasPage } from '../pages/sorveterias/sorveterias';
+import { SomPage } from '../pages/som/som';
+import { SeguradorasPage } from '../pages/seguradoras/seguradoras';
+import { RestaurantesPage } from '../pages/restaurantes/restaurantes';
+import { RadiosPage } from '../pages/radios/radios';
+import { PostosDeGasolinaPage } from '../pages/postos-de-gasolina/postos-de-gasolina';
+import { PadariasPage } from '../pages/padarias/padarias';
+import { OticasPage } from '../pages/oticas/oticas';
 
 @NgModule({
   declarations: [
@@ -29,7 +44,23 @@ import { BelezaPage } from '../pages/beleza/beleza';
     AcouguesPage,
     AgropecuariaPage,
     AntenasPage,
-    BelezaPage
+    BelezaPage,
+    CreditoPage,
+    DrogariasPage,
+    OticasPage,
+    PadariasPage,
+    PostosDeGasolinaPage,
+    RadiosPage,
+    RestaurantesPage,
+    SeguradorasPage,
+    SomPage,
+    SorveteriasPage,
+    SupermercadosPage,
+    TaxistasPage,
+    VeterinariosPage,
+    ViagensETurismoPage,
+    VidraçariasPage
+   
   ],
   imports: [
     BrowserModule,
@@ -47,7 +78,21 @@ import { BelezaPage } from '../pages/beleza/beleza';
     AcouguesPage,
     AgropecuariaPage,
     AntenasPage,
-    BelezaPage
+    BelezaPage,
+    CreditoPage,
+    DrogariasPage,
+    OticasPage,
+    PadariasPage,
+    PostosDeGasolinaPage,
+    RadiosPage,
+    SeguradorasPage,
+    SomPage,
+    SorveteriasPage,
+    SupermercadosPage,
+    TaxistasPage,
+    VeterinariosPage,
+    ViagensETurismoPage,
+    VidraçariasPage
   ],
   providers: [
     StatusBar,
